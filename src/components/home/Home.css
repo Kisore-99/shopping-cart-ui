@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+.mobile-phones{
+    display: flex;
+    
+
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.view-all{
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: rgb(39, 110, 190);
+  color: #fff;
+  transition: transform 0.5 ease-out;
+  font-size: 12px;
+
+}
+
+.view-all:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
